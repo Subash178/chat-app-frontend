@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000'; // Change this after deploy
+const API_URL = 'https://chat-app-backend-82i0.onrender.com'; // Change this after deploy
 
 export async function signup(userData) {
   const res = await fetch(`${API_URL}/signup`, {
